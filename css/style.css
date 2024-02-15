@@ -1,3 +1,8 @@
+@import 'reset.css';
+@import 'fonts.css';
+@import 'common.css';
+@import './components/main.css';
+
 .container {
   max-width: 1230px;
   margin: 0 auto;
@@ -11,10 +16,6 @@
 .hero-section {
   display: flex;
   justify-content: space-between;
-}
-
-.tech-stack-section ul {
-  display: flex;
 }
 
 .projects-section .inner {

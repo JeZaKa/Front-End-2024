@@ -1,0 +1,27 @@
+.tech-stack-section .list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 103px;
+  row-gap: 60px;
+}
+
+.tech-stack-section .list img {
+  max-width: 130px;
+  max-height: 130px;
+}
+
+.stack-page {
+  padding-top: 12%;
+  padding-bottom: 14.5%;
+}
+.stack-page .title {
+  margin-bottom: 30px;
+}
+.stack-page .subtitle {
+  margin-bottom: 16.5%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+}

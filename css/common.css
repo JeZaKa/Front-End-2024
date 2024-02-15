@@ -1,0 +1,12 @@
+body {
+  font-family: 'Popins', sans-seri, Arial;
+  font-weight: 400;
+  font-size: 18px;
+  color: #666;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

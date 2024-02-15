@@ -1,0 +1,26 @@
+.footer {
+  padding-bottom: 5%;
+}
+
+.info {
+  justify-content: center;
+  align-items: center;
+  column-gap: 63px;
+  font-size: 18px;
+  font-size: 18px;
+  color: #42446e;
+  margin-bottom: 5%;
+}
+.footer .list {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.line {
+  color: #666;
+  margin-bottom: 5%;
+}
+
+.footer .nav .list {
+  justify-content: center;
+}

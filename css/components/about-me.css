@@ -1,0 +1,94 @@
+.about-me-section {
+  padding-top: 10%;
+  padding-bottom: 25%;
+}
+
+.about-me__title {
+  font-size: 42px;
+  color: #42446e;
+  margin-bottom: 38px;
+  font-weight: 700;
+  line-height: 124%;
+}
+.about-me__subtitle {
+  font-size: 18px;
+  max-width: 700px;
+  font-weight: 400;
+  line-height: 144%;
+  margin-bottom: 64px;
+}
+.about-me__work {
+  margin-bottom: 38px;
+}
+.about-me__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.about-me__item {
+  border-bottom: 2px solid #ebeaed;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-title {
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.experience-technology {
+  display: flex;
+  align-items: center;
+}
+.experience-technology img {
+  margin-right: 4px;
+}
+.experience-technology span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 233%;
+  letter-spacing: 0.08em;
+  color: #a7a7a7;
+}
+
+.period-label {
+  display: block;
+  margin-left: 100px;
+  max-width: 94px;
+  background: #d7ffe0;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 289%;
+  text-align: center;
+  color: #018c0f;
+  margin-bottom: 12px;
+  padding: 1px 27px;
+}
+
+.period-dates {
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+}
+.period-dates img {
+  margin-right: 6px;
+}
+.period-dates span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 233%;
+  letter-spacing: 0.08em;
+  color: #a7a7a7;
+}
+
+.education-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #666;
+}
