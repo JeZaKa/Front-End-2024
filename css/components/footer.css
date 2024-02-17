@@ -23,4 +23,20 @@
 
 .footer .nav .list {
   justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 724px) {
+  .footer .nav .list .item {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .info {
+    flex-direction: column;
+    row-gap: 20px;
+  }
 }

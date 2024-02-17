@@ -10,5 +10,8 @@
 @import './section-projects.css';
 @import './tech-stack-section.css';
 @import './footer.css';
-
 @import'./about-me.css';
+@import './input.css';
+@import './label.css';
+@import './button.css';
+@import './form.css';
