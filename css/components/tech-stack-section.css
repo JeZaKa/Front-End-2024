@@ -1,10 +1,5 @@
 .tech-stack-section .list {
   display: grid;
-  /* grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 5%;
-  grid-row-gap: 30%;
-  justify-items: center; */
   grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
   grid-column-gap: 130px;
   row-gap: 80px;

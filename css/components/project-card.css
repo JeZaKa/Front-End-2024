@@ -5,6 +5,12 @@
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
+
+.project-card.change {
+  display: flex;
+  width: 100%;
+}
+
 .project-card .content {
   padding: 25px;
 }
@@ -53,6 +59,29 @@
   margin-right: 10px;
 }
 
+.burger-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40px;
+  top: 0;
+  right: 0;
+}
+
+.burger-icon.invisible {
+  display: none;
+}
+
+.burger-icon img {
+  width: 100%;
+}
+
+.not-found {
+  color: #42446e;
+  font-size: 30px;
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   .project-card .content {
     padding: 15px;
@@ -70,5 +99,13 @@
   .project-card .actions .icon {
     width: 15px;
     margin-right: 7px;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+  .project-card.change {
+    display: flex;
+    flex-direction: column;
   }
 }
