@@ -23,3 +23,8 @@
     margin-right: 30px;
   }
 }
+@media screen and (max-width: 768px) {
+  .nav {
+    margin: 0;
+  }
+}
